@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Movie Rating System</h1>
+    <form id="rating-form" action="#">
+        <div class="movie-info">
+            <label for="movie-name">Movie Name:</label>
+            <input type="text" id="movie-name" name="movie_name" placeholder="enter movie name" required/>
+        </div>
+        <div class="rating">
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1" title="1 star">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2" title="2 stars">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3" title="3 stars">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4" title="4 stars">&#9733;</label>
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5" title="5 stars">&#9733;</label>
+        </div>
+        <button type="submit">Submit Rating</button>
+    </form>
+    <input type="text" name="comments" placeholder="comments">
+    <p class="feedback-message">Thank you for rating the movie!</p>
+</body>
+
+</html>
